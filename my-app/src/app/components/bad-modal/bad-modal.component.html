@@ -1,0 +1,26 @@
+<div class="modal-header">
+    <h4 class="modal-title pull-left">Bad Modal</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="close($event)">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+
+    <div class="py-4 text-center">
+
+        <div class="spinner-border text-primary" role="status" *ngIf="loading; else blockCompleted">
+            <span class="sr-only">Loading...</span>
+        </div>
+
+        <ng-template #blockCompleted>
+            Completed.
+        </ng-template>
+
+    </div>
+
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="close($event)">
+        Close
+    </button>
+</div>
