@@ -16,4 +16,8 @@ Open ``http://your-host/bundle-dev/index.html`` in your browser.
 
 Look log: ``htdocs/log.txt``.
 
+---
+
 ![Angular Example - screenshot #1](https://github.com/andchir/test-angular-app/blob/master/screenshots/screenshot001.png?raw=true "Angular Example - screenshot #1")
+
+---
