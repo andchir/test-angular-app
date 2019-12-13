@@ -8,12 +8,16 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {GoodModalComponent} from './components/good-modal/good-modal.component';
 import {BadModalComponent} from './components/bad-modal/bad-modal.component';
+import { FirstComponentComponent } from './first-component/first-component.component';
+import { SecondComponentComponent } from './second-component/second-component.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         GoodModalComponent,
-        BadModalComponent
+        BadModalComponent,
+        FirstComponentComponent,
+        SecondComponentComponent
     ],
     imports: [
         BrowserModule,

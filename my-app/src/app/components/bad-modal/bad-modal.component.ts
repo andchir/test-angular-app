@@ -15,6 +15,7 @@ import {DataInterface} from '../../models/data-interface';
 export class BadModalComponent implements OnInit, OnDestroy {
 
     loading = false;
+    largeData: number[] = (new Array(1000000)).fill(1);
     destroyed$ = new Subject<void>();
     data: DataInterface;
 

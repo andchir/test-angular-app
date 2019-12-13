@@ -14,6 +14,7 @@ import {DataInterface} from '../../models/data-interface';
 export class GoodModalComponent implements OnInit, OnDestroy {
 
     loading = false;
+    largeData: number[] = (new Array(1000000)).fill(1);
     data: DataInterface;
 
     constructor(

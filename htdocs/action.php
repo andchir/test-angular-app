@@ -34,7 +34,7 @@ $actionName = isset($_GET['a']) && !is_array($_GET['a']) ? $_GET['a'] : '1';
 
 logging("STARTED-{$actionName}");
 
-sleep(2);
+sleep(4);// Very resource-intensive operation that takes 3 seconds
 
 logging("COMPLETED-{$actionName}");
 

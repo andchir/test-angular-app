@@ -6,13 +6,20 @@ There may be times when you do not need to unsubscribe and cancel request (unsub
 If the server is experiencing difficulties, then you will avoid repeating difficult requests and help not to finish the server.  
 **When you cancel a client-side request, you do not cancel the server-side operation.** Just keep that in mind.
 
+Article:  
+[https://habr.com/ru/post/479732/](https://habr.com/ru/post/479732/)
+
+Video:  
+[https://www.youtube.com/watch?v=jQ5qLosbnOY](https://www.youtube.com/watch?v=jQ5qLosbnOY)  
+[https://www.youtube.com/watch?v=uAEka7a5_eA](https://www.youtube.com/watch?v=uAEka7a5_eA)
+
 Compile in dev mode:
 ~~~
-ng build --baseHref="/bundle-dev/" --deployUrl="/bundle-dev/" \
---outputPath="../htdocs/bundle-dev" --watch=true
+ng build --baseHref="/dev/" --deployUrl="/dev/" \
+--outputPath="../htdocs/dev" --watch=true
 ~~~
 
-Open ``http://your-host/bundle-dev/index.html`` in your browser.
+Open ``http://your-host/dev/index.html`` in your browser.
 
 Look log: ``htdocs/log.txt``.
 
